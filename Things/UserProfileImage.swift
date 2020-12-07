@@ -2,17 +2,17 @@ import SwiftUI
 
 struct UserProfileImage: View {
   
-  let userPhoto: String
   let userName: String
+  let userPhoto: UIImage
   
   var body: some View {
     VStack {
-      Image(userPhoto)
+      Image(uiImage: userPhoto)
         .resizable()
         .scaledToFit()
         .clipShape(Circle())
-        .overlay(Circle().stroke(Color.white, lineWidth: 4))
-        .shadow(radius: 10)
+        .overlay(Circle().stroke(Color.black, lineWidth: 1))
+        .shadow(radius: 42)
       
       Text(userName)
         .font(.title)
@@ -22,6 +22,6 @@ struct UserProfileImage: View {
 
 struct UserProfileImage_Previews: PreviewProvider {
   static var previews: some View {
-    UserProfileImage(userPhoto: "user_photo_ada", userName: "Ada")
+    UserProfileImage(userName: "Ada", userPhoto: UIImage(named: "user_photo_ada")!)
   }
 }
