@@ -11,6 +11,7 @@
 		C9BA5AE6257EB48E008D3037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AE5257EB48E008D3037 /* ContentView.swift */; };
 		C9BA5AE8257EB48F008D3037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA5AE7257EB48F008D3037 /* Assets.xcassets */; };
 		C9BA5AEB257EB48F008D3037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA5AEA257EB48F008D3037 /* Preview Assets.xcassets */; };
+		C9BA5AFB257EBEBF008D3037 /* UserProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C9BA5AE7257EB48F008D3037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9BA5AEA257EB48F008D3037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9BA5AEC257EB48F008D3037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				C9BA5AE3257EB48E008D3037 /* ThingsApp.swift */,
 				C9BA5AE5257EB48E008D3037 /* ContentView.swift */,
+				C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */,
 				C9BA5AE7257EB48F008D3037 /* Assets.xcassets */,
 				C9BA5AEC257EB48F008D3037 /* Info.plist */,
 				C9BA5AE9257EB48F008D3037 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BA5AE6257EB48E008D3037 /* ContentView.swift in Sources */,
+				C9BA5AFB257EBEBF008D3037 /* UserProfileImage.swift in Sources */,
 				C9BA5AE4257EB48E008D3037 /* ThingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
