@@ -13,7 +13,7 @@
 		C9BA5AE6257EB48E008D3037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AE5257EB48E008D3037 /* ContentView.swift */; };
 		C9BA5AE8257EB48F008D3037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA5AE7257EB48F008D3037 /* Assets.xcassets */; };
 		C9BA5AEB257EB48F008D3037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA5AEA257EB48F008D3037 /* Preview Assets.xcassets */; };
-		C9BA5AFB257EBEBF008D3037 /* UserProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */; };
+		C9BA5AFB257EBEBF008D3037 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AFA257EBEBF008D3037 /* UserImage.swift */; };
 		C9BA5AFF257EC420008D3037 /* UserThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5AFE257EC420008D3037 /* UserThingsView.swift */; };
 		C9BA5B04257EC82D008D3037 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5B03257EC82D008D3037 /* Provider.swift */; };
 		C9BA5B08257ED331008D3037 /* ListUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA5B07257ED331008D3037 /* ListUsersView.swift */; };
@@ -32,7 +32,7 @@
 		C9BA5AE7257EB48F008D3037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9BA5AEA257EB48F008D3037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9BA5AEC257EB48F008D3037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImage.swift; sourceTree = "<group>"; };
+		C9BA5AFA257EBEBF008D3037 /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
 		C9BA5AFE257EC420008D3037 /* UserThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserThingsView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		C9BA5B03257EC82D008D3037 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		C9BA5B07257ED331008D3037 /* ListUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersView.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				C9BA5AE3257EB48E008D3037 /* ThingsApp.swift */,
 				C9BA5AE5257EB48E008D3037 /* ContentView.swift */,
 				C9BA5AFE257EC420008D3037 /* UserThingsView.swift */,
-				C9BA5AFA257EBEBF008D3037 /* UserProfileImage.swift */,
+				C9BA5AFA257EBEBF008D3037 /* UserImage.swift */,
 				C9BA5AE7257EB48F008D3037 /* Assets.xcassets */,
 				C9BA5AEC257EB48F008D3037 /* Info.plist */,
 				C9BA5AE9257EB48F008D3037 /* Preview Content */,
@@ -177,9 +177,9 @@
 				C926F78E258EAC4100B95583 /* BorrowedThing.swift in Sources */,
 				C926F791258EAE4C00B95583 /* LendetThing.swift in Sources */,
 				C9BA5AE6257EB48E008D3037 /* ContentView.swift in Sources */,
-				C9BA5AFB257EBEBF008D3037 /* UserProfileImage.swift in Sources */,
 				C9BA5B08257ED331008D3037 /* ListUsersView.swift in Sources */,
 				C9BA5B04257EC82D008D3037 /* Provider.swift in Sources */,
+				C9BA5AFB257EBEBF008D3037 /* UserImage.swift in Sources */,
 				C9BE85F1258584120060B607 /* Thing.swift in Sources */,
 				C9BE85EE258583DD0060B607 /* User.swift in Sources */,
 				C9BA5AFF257EC420008D3037 /* UserThingsView.swift in Sources */,
