@@ -10,7 +10,7 @@
         {
           "thing_id": "342342342342",
           "thing_description": "Drill",
-          "image_asset": "item_photo_drill",
+          "image_asset": "thing_photo_drill_machine",
           "loan_timestamp": "2020-12-13T10:00:00+0100",
           "planed_return_timestamp": "2020-12-23T10:00:00+0100"
         }
@@ -26,7 +26,7 @@
         {
           "thing_id": "342342342342",
           "thing_description": "Drill",
-          "image_asset": "item_photo_drill",
+          "image_asset": "thing_photo_drill_machine",
           "loan_timestamp": "2020-12-13T10:00:00+0100",
           "planed_return_timestamp": "2020-12-23T10:00:00+0100"
         }
@@ -42,7 +42,7 @@
         {
           "thing_id": "342342342342",
           "thing_description": "Drill",
-          "image_asset": "item_photo_drill",
+          "image_asset": "thing_photo_drill_machine",
           "loan_timestamp": "2020-12-13T10:00:00+0100",
           "planed_return_timestamp": "2020-12-23T10:00:00+0100"
         }
@@ -60,7 +60,7 @@
         {
           "thing_id": "342342342342",
           "thing_description": "Drill",
-          "image_asset": "item_photo_drill",
+          "image_asset": "thing_photo_drill_machine",
           "loan_timestamp": "2020-12-13T10:00:00+0100",
           "planed_return_timestamp": "2020-12-23T10:00:00+0100"
         }
