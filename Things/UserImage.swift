@@ -12,15 +12,20 @@ struct UserImage: View {
           .clipShape(Circle())
           .overlay(Circle().stroke(Color.black, lineWidth: 1))
           .shadow(radius: 42)
-          .frame(maxWidth: 0.3 * metrics.size.width, maxHeight: 60)
+          .frame(maxWidth: (0.3 * metrics.size.width))
         
         Spacer()
+          .frame(width: 30)
         
         Text(user.name)
           .font(.title)
         
         Spacer()
       }
+      .frame(
+        maxWidth: metrics.size.width,
+        maxHeight: (0.3 * metrics.size.width)
+      )
     }
   }
 }
